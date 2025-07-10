@@ -10,6 +10,5 @@ export default function RootLayout() {
         <Slot />
       </SafeScreen>
     </ClerkProvider>
-    //   <Stack screenOptions={{ headerShown: false }} />
   );
 }
