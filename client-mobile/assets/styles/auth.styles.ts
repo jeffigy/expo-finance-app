@@ -1,4 +1,4 @@
-import { COLORS } from "@/constants/colors";
+import { COLORS } from "@/constants/colors_temp";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
@@ -9,9 +9,9 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   illustration: {
-    width: "100%",
+    width: 300,
     height: 310,
-    resizeMode: "contain",
+    contentFit: "contain",
   },
   title: {
     fontSize: 32,
